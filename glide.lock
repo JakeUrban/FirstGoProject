@@ -1,0 +1,83 @@
+hash: 1d9ad6371731a066b880c7f27ac137166b551a0fcfc9a08d094c22bd127abbcd
+updated: 2020-08-27T21:57:59.651617-07:00
+imports:
+- name: github.com/davecgh/go-spew
+  version: d8f796af33cc11cb798c1aaeb27a4ebc5099927d
+  subpackages:
+  - spew
+- name: github.com/go-chi/chi
+  version: cf97bef8b1405c9177bd88eca166ed4f16b9fc80
+- name: github.com/go-errors/errors
+  version: 7c023725d0115f2e05423b2b43a8f85c42f7a6af
+- name: github.com/gorilla/schema
+  version: 7f62815760ef565b05f7d37c136e568d8a8dca68
+- name: github.com/lib/pq
+  version: ef080b6a8f499b5d60fe9f24a2f8a8beb671566d
+  subpackages:
+  - oid
+  - scram
+- name: github.com/manucorporat/sse
+  version: ee05b128a739a0fb76c7ebd3ae4810c1de808d6d
+- name: github.com/pkg/errors
+  version: 614d223910a179a466c1767a985424175c39b465
+- name: github.com/pmezard/go-difflib
+  version: 5d4384ee4fb2527b0a1256a821ebfc92f91efefc
+  subpackages:
+  - difflib
+- name: github.com/segmentio/go-loggly
+  version: 7a70408c3650c37ba8e58a934f686d0c44cb9b58
+- name: github.com/sirupsen/logrus
+  version: 6699a89a232f3db797f2e280639854bbc4b89725
+  subpackages:
+  - hooks/test
+- name: github.com/stellar/go
+  version: 3ad0378dd6916fc2d6e0ea04970592a11cc9a645
+  subpackages:
+  - amount
+  - clients
+  - clients/horizonclient
+  - crc16
+  - hash
+  - keypair
+  - network
+  - price
+  - protocols/horizon
+  - protocols/horizon/base
+  - protocols/horizon/effects
+  - protocols/horizon/operations
+  - strkey
+  - support/clock
+  - support/errors
+  - support/http/httpdecode
+  - support/log
+  - support/render/hal
+  - support/render/httpjson
+  - support/render/problem
+  - support/url
+  - txnbuild
+  - xdr
+- name: github.com/stellar/go-xdr
+  version: 71a1e6d555f26e4646ec10d467c44c7765e33ec1
+  subpackages:
+  - xdr3
+- name: github.com/stretchr/objx
+  version: 35313a95ee26395aa17d366c71a2ccf788fa69b6
+- name: github.com/stretchr/testify
+  version: 54d05a4e18440fb0a44989ab910f347eac4a131f
+  subpackages:
+  - assert
+  - mock
+- name: golang.org/x/crypto
+  version: 5c72a883971a4325f8c62bf07b6d38c20ea47a6a
+  subpackages:
+  - ed25519
+  - ed25519/internal/edwards25519
+- name: golang.org/x/sys
+  version: f9321e4c35a6ee62ff0348f57ad5a3b5e73e299e
+  subpackages:
+  - internal/unsafeheader
+  - unix
+  - windows
+- name: gopkg.in/yaml.v3
+  version: eeeca48fe7764f320e4870d231902bf9c1be2c08
+testImports: []

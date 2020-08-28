@@ -1,0 +1,8 @@
+package: FirstProject
+import:
+- package: github.com/stellar/go
+  subpackages:
+  - txnbuild
+  - clients
+  - keypair
+  - network
